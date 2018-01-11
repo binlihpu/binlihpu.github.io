@@ -99,7 +99,7 @@ gitment:
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: binlihpu
-    repo: blog-comments
+    repo: binlihpu.github.io
     clientID: ffaa0b2187afef4c4686
     clientSecret: 2a32bfb91b9ce9f1a95b84aa02853ea6d97523f2
 # 在使用其它评论组件时可点击显示 Disqus
