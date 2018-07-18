@@ -9,7 +9,7 @@ keywords: 入门
 ## 1.Defer的定义
 > defer:英文意思是推迟，延迟。所以defer语句表示推迟函数的执行，直到函数执行完毕返回为止。特别要提示是defer会在return语句之后执行。
 
-```
+```go
 package main
 
 import "fmt"
@@ -25,7 +25,7 @@ func test() (int, error) {
 }
 ```
 执行结果：
-```
+```go
 hello
 123
 world
@@ -37,7 +37,7 @@ world
 #### 2.1 关闭v件
 > Go语言中延迟（defer）语句是种不错的设计，你可以在函数中添加多个defer语句。当函数执行到最后时，这些defer语句会按照逆序执行，最后该函数返回。特别是当你在进行一些打开资源的操作时，遇到错误需要提前返回，在返回前你需要关闭相应的资源，不然很容易造成资源泄露等问题。
 
-```
+```go
 func ReadWrite() bool {
 	file.Open("file")
 	//不管读写文件中出现什么错误，
@@ -56,7 +56,7 @@ func ReadWrite() bool {
 #### 2.2 异常捕捉
 > Go中可以抛出一个panic的异常，然后在defer中通过recover捕获这个异常，然后正常处理。
 
-```
+```go
 package main
 
 import "fmt"
@@ -96,7 +96,7 @@ func f() {
 ```
 > 执行结果：
 
-```
+```go
 a
 c
 55
