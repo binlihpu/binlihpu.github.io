@@ -5,7 +5,6 @@ categories: MongoDB
 description: 数据库
 keywords: MongoDB, 开发
 ---
-# 
 
 ## MongoDB基础
 ###### MongoDB中和我们常见的Mysql数据库类似，可以做个简单的对比快速入门：
