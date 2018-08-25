@@ -18,7 +18,7 @@ Process exiting with code: 1
 ``` xcode-select: note: install requested for command line developer tools ```
 系统会自动更新软件，并弹出
 
-![avatar](../../images/blog/mac-vscode-delve-01.png)
+![avatar]({{site.repository}}/raw/master/images/blog/mac-vscode-delve-01.png)
 
 等待更新完毕后即可！
 
