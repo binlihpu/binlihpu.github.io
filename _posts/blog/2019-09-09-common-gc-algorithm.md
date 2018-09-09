@@ -19,7 +19,7 @@ keywords: GC
   * 标记：从程序的根节点开始， 递归地 遍历所有对象，将能遍历到的对象打上标记。
   * 清除：讲所有未标记的的对象当作垃圾销毁。
 
-![avatar](../../images/blog/common-gc-algorithm-01.gif)
+![avatar](http://golangcode.top/images/blog/common-gc-algorithm-01.gif)
 
 如图所示，但是这个算法也有一个缺陷，就是人们常常说的` STW `问题（`Stop The World`）。因为算法在标记时必须暂停整个程序，否则其他线程的代码可能会改变对象状态，从而可能把不应该回收的对象当做垃圾收集掉。
 当程序中的对象逐渐增多时，递归遍历整个对象树会消耗很多的时间，在大型程序中这个时间可能会是毫秒级别的。让所有的用户等待几百毫秒的 GC 时间这是不能容忍的。
@@ -36,7 +36,7 @@ keywords: GC
   6. 通过`write-barrier`检测对象有变化，重复以上操作
   7. 收集所有白色对象（垃圾）
 
-![avatar](../../images/blog/common-gc-algorithm-02.gif)
+![avatar](http://golangcode.top/images/blog/common-gc-algorithm-02.gif)
 
 过程如上图所示，这个算法可以实现`on-the-fly`，也就是在程序执行的同时进行收集，并不需要暂停整个程序。
 但是也会有一个缺陷，可能程序中的垃圾产生的速度会大于垃圾收集的速度，这样会导致程序中的垃圾越来越多无法被收集掉。
