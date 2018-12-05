@@ -1,9 +1,9 @@
 ---
 layout: post
 title: MYSQL索引优化
-categories: GO
-description: 包管理工具
-keywords: Glide
+categories: MYSQL
+description: MYSQL索引优化
+keywords: MYSQL
 ---
 
 # MYSQL索引优化
