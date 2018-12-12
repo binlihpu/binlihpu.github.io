@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://golangcode.top
+url: https://golangcode.top
 date_format: "ordinal"
 title: 够浪程序员
 subtitle: "码农不学golang，还是不够浪！"
