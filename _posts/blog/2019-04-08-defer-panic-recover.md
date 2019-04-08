@@ -2,7 +2,7 @@
 layout: post
 title: Go中的Defer, Panic和 Recover的用法
 categories: GO
-description:Go的异常处理
+description: Go的异常处理
 keywords: Defer, Panic, Recover
 ---
 
