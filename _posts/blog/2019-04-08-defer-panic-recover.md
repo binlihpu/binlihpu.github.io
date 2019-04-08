@@ -6,6 +6,7 @@ categories: GO
 description:Go的异常处理
 keywords: Defer, Panic, Recover
 ---
+
 ---
 > Go具有控制流程的常用机制：if，for，switch，goto。它还有go语句在单独的goroutine中运行代码。在这里，我想讨论一些不太常见的问题：defer，panic和recover。
 
