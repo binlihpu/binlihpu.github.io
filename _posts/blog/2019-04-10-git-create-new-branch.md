@@ -10,7 +10,6 @@ keywords: Git
 
 
 - 首先切换到master分支：
-
 ```go
 $ git checkout master
 ```
@@ -20,9 +19,9 @@ $ git checkout -b dev
 ```
 - 然后将本地分支dev推到远端：
 ```go
-git push origin dev
+$ git push origin dev
 ```
 - 最后将本地的dev分支和远端的dev分支关联起来：
 ```go
-git branch --set-upstream-to=origin/dev dev
+$ git branch --set-upstream-to=origin/dev dev
 ```
