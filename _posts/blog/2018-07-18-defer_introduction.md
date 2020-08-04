@@ -1,7 +1,7 @@
 ---
 layout: post
 title: defer入门
-categories: GO
+categories: Go
 description: defer的用法
 keywords: 入门
 ---

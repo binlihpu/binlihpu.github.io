@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git建立新的分支
-categories: GIT
+categories: Git
 description: git的一些常用用法 
 keywords: Git
 ---

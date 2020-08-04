@@ -3,7 +3,7 @@ layout: post
 title: Go调优神器trace介绍
 categories: 
 description: 
-keywords: 优化,GO
+keywords: 优化,Go
 ---
 
 # Go调优神器trace介绍 

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Go channel堵塞特性的一点见解
-categories: GO
+categories: Go
 description: Go channel堵塞特性的一点见解
-keywords: GO
+keywords: Go
 ---
 
 今天我同事问了我一个关于channel堵塞打印信息显示顺序的问题，话不多说，先敬上一段代码：
