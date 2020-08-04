@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Go module 使用私有库
+title: Go module 使用私有库配置
 categories: Go
 description: 主要配置GOPRIVATE字段和gitconfig文件
 keywords: Go
 ---
 
-# Go module 使用私有库
+# Go module 使用私有库配置
 本次配置Go版本是1.14.4，Git版本2.24.3,操作系统是macOS。
 
 由于GOPROXY代理的是开源项目，可以不用授权就能`go get`下来，所以国内一般配置GOPROXY参数为：
